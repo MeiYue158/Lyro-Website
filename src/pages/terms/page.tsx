@@ -49,22 +49,34 @@ export default function TermsPage() {
                     <hr className="border-white/10 my-12" />
 
                     <h2 className="text-3xl font-light text-white mb-6 mt-12">
+                      SMS Messaging Terms
+                    </h2>
+                    <p className="text-lg text-gray-300 leading-relaxed font-light mb-8">
+                      By providing your phone number and opting in, you agree to receive SMS messages from Lyro Inc. related to customer care and service communications. Message frequency may vary. On average, you may receive 1–2 messages per month. Message and data rates may apply.
+                    </p>
+                    <p className="text-lg text-gray-300 leading-relaxed font-light mb-4">
+                      To stop receiving SMS messages, reply STOP or UNSUBSCRIBE at any time.
+                      For help or more information, reply HELP.
+                    </p>
+                    <p className="text-lg text-gray-300 leading-relaxed font-light mb-8">
+                      For details on how your information is handled, please review our Privacy Policy:
+                    </p>
+                    <p className="text-lg text-white leading-relaxed font-light mb-8">
+                      <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+                        https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy
+                      </a>
+                    </p>
+
+                    <hr className="border-white/10 my-12" />
+
+                    <h2 className="text-3xl font-light text-white mb-6 mt-12">
                       1. SMS Messaging Service
                     </h2>
                     <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
-                      By providing your mobile phone number through our online forms or other opt-in methods, you consent to receive <strong className="text-white font-normal">SMS text messages from Lyro Inc.</strong> related to our transportation coordination services.
+                      By providing your mobile phone number through our online forms or other opt-in methods, you consent to receive <strong className="text-white font-normal">SMS text messages from Lyro Inc.</strong> related to customer care and service communications.
                     </p>
-                    <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
-                      SMS messages may include, but are not limited to:
-                    </p>
-                    <ul className="list-disc list-inside space-y-3 mb-6 text-lg text-gray-300 leading-relaxed font-light ml-4">
-                      <li>Trip or appointment confirmations</li>
-                      <li>Schedule updates or reminders</li>
-                      <li>Service-related notifications</li>
-                      <li>Responses to customer support inquiries</li>
-                    </ul>
                     <p className="text-lg text-gray-300 leading-relaxed font-light mb-8">
-                      These messages are <strong className="text-white font-normal">service-related</strong> and not sent for third-party marketing purposes.
+                      These messages are <strong className="text-white font-normal">customer care messages</strong> and not sent for third-party marketing purposes.
                     </p>
 
                     <hr className="border-white/10 my-12" />
@@ -76,7 +88,7 @@ export default function TermsPage() {
                       Message frequency may vary based on your interaction with our services.
                     </p>
                     <p className="text-lg text-gray-300 leading-relaxed font-light mb-4">
-                      On average, users may receive several messages per month, though frequency may increase temporarily in connection with active trips, appointments, or service updates.
+                      On average, you may receive 1–2 messages per month.
                     </p>
                     <p className="text-lg text-gray-300 leading-relaxed font-light mb-4">
                       Lyro Inc. reserves the right to change message frequency at any time.
@@ -106,7 +118,7 @@ export default function TermsPage() {
                       You may opt out of receiving SMS messages at any time by replying:
                     </p>
                     <ul className="list-disc list-inside space-y-3 mb-4 text-lg text-gray-300 leading-relaxed font-light ml-4">
-                      <li><strong className="text-white font-normal">STOP</strong> — to unsubscribe from future messages</li>
+                      <li><strong className="text-white font-normal">STOP</strong> or <strong className="text-white font-normal">UNSUBSCRIBE</strong> — to unsubscribe from future messages</li>
                     </ul>
                     <p className="text-lg text-gray-300 leading-relaxed font-light mb-8">
                       After opting out, you may receive a single confirmation message acknowledging your request.
@@ -144,8 +156,8 @@ export default function TermsPage() {
                       Please review our Privacy Policy here:
                     </p>
                     <p className="text-lg text-white leading-relaxed font-light mb-8">
-                      <a href="/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
-                        Privacy Policy
+                      <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+                        https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy
                       </a>
                     </p>
 

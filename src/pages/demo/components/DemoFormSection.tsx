@@ -142,6 +142,30 @@ export function DemoFormSection() {
                       className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-purple-400/50 transition-colors"
                       placeholder="Your phone number"
                     />
+                    <div className="mt-4 p-4 bg-white/5 border border-white/10 rounded-xl">
+                      <p className="text-xs text-gray-300 leading-relaxed font-light mb-2">
+                        By providing your phone number and submitting this form, you consent to receive customer care SMS messages from Lyro Inc. Message frequency may vary. On average, you may receive 1–2 messages per month. Message and data rates may apply.
+                      </p>
+                      <p className="text-xs text-gray-300 leading-relaxed font-light mb-2">
+                        Text STOP or UNSUBSCRIBE to opt out. Text HELP for assistance.
+                      </p>
+                      <p className="text-xs text-gray-300 leading-relaxed font-light mb-1">
+                        Privacy Policy:
+                      </p>
+                      <p className="text-xs text-purple-300 leading-relaxed font-light mb-2">
+                        <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy" className="hover:text-purple-200 transition-colors">
+                          https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy
+                        </a>
+                      </p>
+                      <p className="text-xs text-gray-300 leading-relaxed font-light mb-1">
+                        Terms & Conditions:
+                      </p>
+                      <p className="text-xs text-purple-300 leading-relaxed font-light">
+                        <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/terms" className="hover:text-purple-200 transition-colors">
+                          https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/terms
+                        </a>
+                      </p>
+                    </div>
                   </div>
                 </div>
 

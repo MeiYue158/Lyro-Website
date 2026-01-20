@@ -192,6 +192,30 @@ export default function SmsConsentPage() {
                           required
                           className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-500 font-light focus:outline-none focus:border-purple-400/50 focus:bg-white/10 transition-all"
                         />
+                        <div className="mt-4 p-4 bg-white/5 border border-white/10 rounded-xl">
+                          <p className="text-sm text-gray-300 leading-relaxed font-light mb-2">
+                            By providing your phone number and submitting this form, you consent to receive customer care SMS messages from Lyro Inc. Message frequency may vary. On average, you may receive 1–2 messages per month. Message and data rates may apply.
+                          </p>
+                          <p className="text-sm text-gray-300 leading-relaxed font-light mb-2">
+                            Text STOP or UNSUBSCRIBE to opt out. Text HELP for assistance.
+                          </p>
+                          <p className="text-sm text-gray-300 leading-relaxed font-light mb-1">
+                            Privacy Policy:
+                          </p>
+                          <p className="text-sm text-purple-300 leading-relaxed font-light mb-2">
+                            <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy" className="hover:text-purple-200 transition-colors">
+                              https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy
+                            </a>
+                          </p>
+                          <p className="text-sm text-gray-300 leading-relaxed font-light mb-1">
+                            Terms & Conditions:
+                          </p>
+                          <p className="text-sm text-purple-300 leading-relaxed font-light">
+                            <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/terms" className="hover:text-purple-200 transition-colors">
+                              https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/terms
+                            </a>
+                          </p>
+                        </div>
                       </div>
                       
                       <div>
@@ -296,10 +320,10 @@ export default function SmsConsentPage() {
                     
                     <div className="bg-gradient-to-br from-purple-500/10 to-indigo-500/10 border border-purple-400/30 rounded-xl p-6 mb-8">
                       <p className="text-lg text-gray-300 leading-relaxed font-light mb-4">
-                        <strong className="text-white font-normal">Types of messages:</strong> You may receive service updates, scheduling notifications, operational messages, trip confirmations, reminders, and customer support communications.
+                        <strong className="text-white font-normal">Types of messages:</strong> You may receive customer care SMS messages from Lyro Inc. related to customer care and service communications.
                       </p>
                       <p className="text-lg text-gray-300 leading-relaxed font-light mb-4">
-                        <strong className="text-white font-normal">Message frequency:</strong> Message frequency varies based on your interaction with our services.
+                        <strong className="text-white font-normal">Message frequency:</strong> Message frequency may vary. On average, you may receive 1–2 messages per month.
                       </p>
                       <p className="text-lg text-gray-300 leading-relaxed font-light mb-4">
                         <strong className="text-white font-normal">Message and data rates may apply</strong> depending on your mobile carrier and service plan.
@@ -308,7 +332,7 @@ export default function SmsConsentPage() {
                         <strong className="text-white font-normal">Consent is not a condition of purchase.</strong> You are not required to consent to receive SMS messages to use our services.
                       </p>
                       <p className="text-lg text-gray-300 leading-relaxed font-light mb-4">
-                        <strong className="text-white font-normal">Reply STOP</strong> to unsubscribe from future messages at any time.
+                        <strong className="text-white font-normal">Reply STOP or UNSUBSCRIBE</strong> to unsubscribe from future messages at any time.
                       </p>
                       <p className="text-lg text-gray-300 leading-relaxed font-light mb-4">
                         <strong className="text-white font-normal">Reply HELP</strong> for help or assistance with SMS messages.
@@ -330,13 +354,13 @@ export default function SmsConsentPage() {
                     
                     <ul className="list-disc list-inside space-y-3 mb-8 text-lg text-gray-300 leading-relaxed font-light ml-4">
                       <li>
-                        <a href="/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
-                          Privacy Policy
+                        <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+                          https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy
                         </a>
                       </li>
                       <li>
-                        <a href="/terms" className="text-purple-300 hover:text-purple-200 transition-colors">
-                          Terms and Conditions
+                        <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/terms" className="text-purple-300 hover:text-purple-200 transition-colors">
+                          https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/terms
                         </a>
                       </li>
                     </ul>
