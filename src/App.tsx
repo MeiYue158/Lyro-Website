@@ -9,7 +9,7 @@ import Header from './components/feature/Header';
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
-      <BrowserRouter basename={__BASE_PATH__}>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <div className="min-h-screen bg-gray-900">
           <Header />
           <main>

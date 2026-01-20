@@ -114,7 +114,9 @@ export function ProductSection() {
         {capabilities.map((capability, index) => (
           <div
             key={index}
-            ref={(el) => (sectionRefs.current[index] = el)}
+            ref={(el) => {
+              sectionRefs.current[index] = el;
+            }}
             className="min-h-screen flex items-center"
           >
             <div className="container mx-auto px-6 py-20">
