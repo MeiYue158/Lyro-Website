@@ -17,7 +17,8 @@ export default function Header() {
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'Demo', href: '/demo' },
-    { label: 'Contact', href: '/contact' }
+    { label: 'Contact', href: '/contact' },
+    { label: 'SMS Consent', href: '/sms-consent' }
   ];
 
   return (
