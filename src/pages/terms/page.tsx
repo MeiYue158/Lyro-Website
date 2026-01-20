@@ -62,8 +62,8 @@ export default function TermsPage() {
                       For details on how your information is handled, please review our Privacy Policy:
                     </p>
                     <p className="text-lg text-white leading-relaxed font-light mb-8">
-                      <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
-                        https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy
+                      <a href="https://lyro-website-axyx.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+                        https://lyro-website-axyx.vercel.app/privacy
                       </a>
                     </p>
 
@@ -156,8 +156,8 @@ export default function TermsPage() {
                       Please review our Privacy Policy here:
                     </p>
                     <p className="text-lg text-white leading-relaxed font-light mb-8">
-                      <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
-                        https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy
+                      <a href="https://lyro-website-axyx.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+                        https://lyro-website-axyx.vercel.app/privacy
                       </a>
                     </p>
 

@@ -203,16 +203,16 @@ export default function SmsConsentPage() {
                             Privacy Policy:
                           </p>
                           <p className="text-sm text-purple-300 leading-relaxed font-light mb-2">
-                            <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy" className="hover:text-purple-200 transition-colors">
-                              https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy
+                            <a href="https://lyro-website-axyx.vercel.app/privacy" className="hover:text-purple-200 transition-colors">
+                              https://lyro-website-axyx.vercel.app/privacy
                             </a>
                           </p>
                           <p className="text-sm text-gray-300 leading-relaxed font-light mb-1">
                             Terms & Conditions:
                           </p>
                           <p className="text-sm text-purple-300 leading-relaxed font-light">
-                            <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/terms" className="hover:text-purple-200 transition-colors">
-                              https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/terms
+                            <a href="https://lyro-website-axyx.vercel.app/terms" className="hover:text-purple-200 transition-colors">
+                              https://lyro-website-axyx.vercel.app/terms
                             </a>
                           </p>
                         </div>
@@ -354,13 +354,13 @@ export default function SmsConsentPage() {
                     
                     <ul className="list-disc list-inside space-y-3 mb-8 text-lg text-gray-300 leading-relaxed font-light ml-4">
                       <li>
-                        <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
-                          https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/privacy
+                        <a href="https://lyro-website-axyx.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+                          https://lyro-website-axyx.vercel.app/privacy
                         </a>
                       </li>
                       <li>
-                        <a href="https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/terms" className="text-purple-300 hover:text-purple-200 transition-colors">
-                          https://lyro-website-ayxy-git-main-meiyue158s-projects.vercel.app/terms
+                        <a href="https://lyro-website-axyx.vercel.app/terms" className="text-purple-300 hover:text-purple-200 transition-colors">
+                          https://lyro-website-axyx.vercel.app/terms
                         </a>
                       </li>
                     </ul>
