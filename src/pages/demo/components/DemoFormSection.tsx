@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export function DemoFormSection() {
   const [formData, setFormData] = useState({
@@ -153,17 +154,17 @@ export function DemoFormSection() {
                         Privacy Policy:
                       </p>
                       <p className="text-xs text-purple-300 leading-relaxed font-light mb-2">
-                        <a href="https://lyro-website-axyx.vercel.app/privacy" className="hover:text-purple-200 transition-colors">
+                        <Link to="/privacy" className="hover:text-purple-200 transition-colors">
                           https://lyro-website-axyx.vercel.app/privacy
-                        </a>
+                        </Link>
                       </p>
                       <p className="text-xs text-gray-300 leading-relaxed font-light mb-1">
                         Terms & Conditions:
                       </p>
                       <p className="text-xs text-purple-300 leading-relaxed font-light">
-                        <a href="https://lyro-website-axyx.vercel.app/terms" className="hover:text-purple-200 transition-colors">
+                        <Link to="/terms" className="hover:text-purple-200 transition-colors">
                           https://lyro-website-axyx.vercel.app/terms
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>

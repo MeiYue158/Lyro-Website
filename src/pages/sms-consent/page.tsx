@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { FooterSection } from '../home/components/FooterSection';
 import { CursorGlow } from '../home/components/CursorGlow';
@@ -203,17 +204,17 @@ export default function SmsConsentPage() {
                             Privacy Policy:
                           </p>
                           <p className="text-sm text-purple-300 leading-relaxed font-light mb-2">
-                            <a href="https://lyro-website-axyx.vercel.app/privacy" className="hover:text-purple-200 transition-colors">
+                            <Link to="/privacy" className="hover:text-purple-200 transition-colors">
                               https://lyro-website-axyx.vercel.app/privacy
-                            </a>
+                            </Link>
                           </p>
                           <p className="text-sm text-gray-300 leading-relaxed font-light mb-1">
                             Terms & Conditions:
                           </p>
                           <p className="text-sm text-purple-300 leading-relaxed font-light">
-                            <a href="https://lyro-website-axyx.vercel.app/terms" className="hover:text-purple-200 transition-colors">
+                            <Link to="/terms" className="hover:text-purple-200 transition-colors">
                               https://lyro-website-axyx.vercel.app/terms
-                            </a>
+                            </Link>
                           </p>
                         </div>
                       </div>
@@ -354,14 +355,14 @@ export default function SmsConsentPage() {
                     
                     <ul className="list-disc list-inside space-y-3 mb-8 text-lg text-gray-300 leading-relaxed font-light ml-4">
                       <li>
-                        <a href="https://lyro-website-axyx.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+                        <Link to="/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
                           https://lyro-website-axyx.vercel.app/privacy
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://lyro-website-axyx.vercel.app/terms" className="text-purple-300 hover:text-purple-200 transition-colors">
+                        <Link to="/terms" className="text-purple-300 hover:text-purple-200 transition-colors">
                           https://lyro-website-axyx.vercel.app/terms
-                        </a>
+                        </Link>
                       </li>
                     </ul>
 

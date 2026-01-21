@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export function FooterSection() {
   return (
     <footer className="relative py-20 bg-black/50 backdrop-blur-sm border-t border-white/10">
@@ -18,24 +20,36 @@ export function FooterSection() {
 
           {/* Navigation Links */}
           <div className="flex flex-wrap justify-center gap-8 text-sm">
-            <a 
-              href="/"
+            <Link 
+              to="/"
               className="text-gray-400 hover:text-white transition-colors duration-300 cursor-pointer"
             >
               Home
-            </a>
-            <a 
-              href="/demo"
+            </Link>
+            <Link 
+              to="/demo"
               className="text-gray-400 hover:text-white transition-colors duration-300 cursor-pointer"
             >
               Demo
-            </a>
-            <a 
-              href="/contact"
+            </Link>
+            <Link 
+              to="/contact"
               className="text-gray-400 hover:text-white transition-colors duration-300 cursor-pointer"
             >
               Contact
-            </a>
+            </Link>
+            <Link
+              to="/privacy"
+              className="text-gray-400 hover:text-white transition-colors duration-300 cursor-pointer"
+            >
+              Privacy
+            </Link>
+            <Link
+              to="/terms"
+              className="text-gray-400 hover:text-white transition-colors duration-300 cursor-pointer"
+            >
+              Terms
+            </Link>
           </div>
 
           {/* Social Media Icons */}

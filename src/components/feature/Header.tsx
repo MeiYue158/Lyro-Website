@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +33,7 @@ export default function Header() {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-3 cursor-pointer">
+          <Link to="/" className="flex items-center gap-3 cursor-pointer">
             <div className="w-10 h-10 flex items-center justify-center rounded-xl overflow-hidden">
               <img 
                 src="https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/847dc65a8e09baf2c2d020d772d1772b.jpeg" 
@@ -41,18 +42,18 @@ export default function Header() {
               />
             </div>
             <span className="text-2xl font-light text-white tracking-wide">Lyro</span>
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.label}
-                href={item.href}
+                to={item.href}
                 className="text-sm font-light text-gray-300 hover:text-white transition-colors cursor-pointer"
               >
                 {item.label}
-              </a>
+              </Link>
             ))}
           </nav>
 
@@ -70,14 +71,14 @@ export default function Header() {
           <div className="md:hidden py-6 border-t border-white/10">
             <nav className="flex flex-col gap-4">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.label}
-                  href={item.href}
+                  to={item.href}
                   className="text-base font-light text-gray-300 hover:text-white transition-colors cursor-pointer"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
             </nav>
           </div>

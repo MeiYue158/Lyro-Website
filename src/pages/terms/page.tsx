@@ -1,6 +1,7 @@
 import { FooterSection } from '../home/components/FooterSection';
 import { CursorGlow } from '../home/components/CursorGlow';
 import Aurora from '../home/components/Aurora';
+import { Link } from 'react-router-dom';
 
 export default function TermsPage() {
   return (
@@ -62,9 +63,9 @@ export default function TermsPage() {
                       For details on how your information is handled, please review our Privacy Policy:
                     </p>
                     <p className="text-lg text-white leading-relaxed font-light mb-8">
-                      <a href="https://lyro-website-axyx.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+                      <Link to="/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
                         https://lyro-website-axyx.vercel.app/privacy
-                      </a>
+                      </Link>
                     </p>
 
                     <hr className="border-white/10 my-12" />
@@ -156,9 +157,9 @@ export default function TermsPage() {
                       Please review our Privacy Policy here:
                     </p>
                     <p className="text-lg text-white leading-relaxed font-light mb-8">
-                      <a href="https://lyro-website-axyx.vercel.app/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+                      <Link to="/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
                         https://lyro-website-axyx.vercel.app/privacy
-                      </a>
+                      </Link>
                     </p>
 
                     <hr className="border-white/10 my-12" />
